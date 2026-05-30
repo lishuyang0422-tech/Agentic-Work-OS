@@ -1,0 +1,81 @@
+# Whitelist mode: ignore everything by default.
+*
+!*/
+
+# Root files
+!README.md
+!README.zh-CN.md
+!AGENTS.md
+!LICENSE
+!SECURITY.md
+!CONTRIBUTING.md
+!CODE_OF_CONDUCT.md
+!.gitignore
+
+# Public system templates
+!System/
+!System/Core/
+!System/Core/AI_RULES.md
+!System/Core/CURRENT_STATE.md
+!System/Core/NODE_IDENTITY.md
+!System/Active_Projects/
+!System/Active_Projects/README.md
+!System/Active_Projects/_PROJECT_TEMPLATE.md
+!System/Skills/
+!System/Skills/README.md
+!System/Skills/_INDEX.md
+!System/Skills/workflow-template.md
+!System/Resources/
+!System/Resources/README.md
+!System/System_Log/
+!System/System_Log/SYSTEM_CHANGE_LOG.md
+
+# Public input/output docs
+!input/
+!input/README.md
+!input/quickstart-demo/
+!input/quickstart-demo/README.md
+!output/
+!output/README.md
+
+# Public demos
+!examples/
+!examples/weekly-report-demo/
+!examples/weekly-report-demo/README.md
+!examples/weekly-report-demo/sample-input.md
+!examples/weekly-report-demo/expected-output.md
+!examples/weekly-report-demo/demo-walkthrough.md
+!examples/weekly-report-demo/project-log-after-demo.md
+!examples/agentic-work-os-research-demo/
+!examples/agentic-work-os-research-demo/README.md
+!examples/agentic-work-os-research-demo/sample-research-notes.md
+!examples/agentic-work-os-research-demo/expected-reference-card.md
+!examples/agentic-work-os-research-demo/demo-walkthrough.md
+!examples/agentic-work-os-research-demo/project-log-after-demo.md
+
+# Public docs
+!docs/
+!docs/concepts.md
+!docs/safety-and-sanitization.md
+!docs/agent-compatibility.md
+!docs/roadmap.md
+
+# Explicitly keep common private or noisy files ignored.
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.temp
+.cache/
+__pycache__/
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+private/
+personal/
+confidential/
